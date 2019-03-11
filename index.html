@@ -1,0 +1,67 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+   <meta charset="utf-8"/>
+   <link href="css/style.css" rel="stylesheet"/>
+   <title>Анимированная сортировка</title>
+</head>
+<body>
+   <script src="js/lib/jquery-3.3.1.min.js"></script>
+   <script src="js/lib/d3.min.js"></script>
+   <script src="js/main.js"></script>
+   
+   <div class="blockHeader">
+      <h1 class="header">Анимированная сортировка пузырьком</h1>
+   </div>  
+
+   <div id="description" class="blockDescription">
+
+      <p class="text">Страница графически отображает процесс сортировки пузырьком целых чисел.</p>
+      <p class="text">Как использовать?</p>
+      <ol>
+         <li class="text">Выберете количество элементов массива (N).</li>
+         <li class="text">Cоздайте массив - нажмите на кнопку "Сгенерировать массив". Программа создаст массив из N случайных чисел от 0 до 99 и отобразит его с помощью векторной графики.</li>
+         <li class="text">Начините сортировку!</li>
+      </ol>
+      <p class="text">По окончанию сортировки или если нужен другой массив нажмите "Очисить".</p>
+
+   </div>
+
+   <div id="controls" class="blockControls">
+      
+      <p class="text">Количество элементов массива:</p>
+      
+      <form>
+         <select id="selectArrayLen" autofocus class="blockSelect">
+
+            <option value="5" >5</option>
+            <option value="8" >8</option>
+            <option selected value="10" >10</option>
+            <option value="15" >15</option>
+            <option value="20" >20</option>
+
+         </select>
+      </form>
+   </div>
+
+   <div class="blockButtons">
+      <div class="buttonContainer">
+         <button id="generateArray" class="activeButtons">Сгенерировать массив</button>
+      </div>
+      <div class="buttonContainer">
+         <button id="startSort" disabled class="disabledButtons">Начать сортировку</button>
+      </div>
+      <div class="buttonContainer">
+         <button id="clearSvg" disabled class="disabledButtons">Очисить</button> 
+      </div>
+      
+   </div>
+
+   <div id="svgContainer" class="blockSvgContainer">
+      
+   </div>
+   
+
+</body>
+
+</html>

@@ -1,0 +1,117 @@
+
+.header {
+   font: normal 28px/normal Arial, Helvetica, sans-serif;
+}
+
+.text {
+   font: normal 16px/normal Arial, Helvetica, sans-serif;
+}
+
+.blockHeader {
+   padding: 10px 10px;
+   max-width: 700px;
+}
+
+.blockDescription {
+   padding: 10px 10px;
+   max-width: 700px;
+}
+
+.blockControls {
+   padding: 10px 10px;
+
+}
+
+.blockButtons {
+   padding: 20px 5px;
+}
+
+.buttonContainer {
+   padding: 10px 5px;
+   display: inline;
+   box-sizing: content-box;
+}
+
+.blockSvgContainer{
+   padding: 10px 10px;   
+}
+
+.blockSelect {
+   display: inline-block;
+   box-sizing: content-box;
+   padding: 10px 20px;
+   border: 1px solid #b7b7b7;
+   font: normal 16px/normal Arial, Helvetica, sans-serif;
+   color: rgba(0,0,0,1);
+   text-overflow: clip;
+}
+
+.activeButtons {
+
+   display: inline-block;
+   box-sizing: content-box;
+   cursor: pointer;
+   padding: 10px 20px;
+   border: 1px solid #018dc4;
+   border-radius: 3px;
+   font: normal 16px/normal Arial, Helvetica, sans-serif;
+   color: rgba(255,255,255,0.9);
+   text-overflow: clip;
+   background: #0199d9;
+  
+}
+
+.activeButtons:hover {
+   background: #0199d9;
+   box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2);
+   text-shadow: -1px -1px 0 rgba(15,73,168,0.66);
+}
+
+.disabledButtons {
+   display: inline-block;
+   box-sizing: content-box;
+   cursor: pointer;
+   padding: 10px 20px;
+   border: 1px solid #919199;
+   border-radius: 3px;
+   font: normal 16px/normal Arial, Helvetica, sans-serif;
+   color: rgba(255,255,255,0.9);
+   text-overflow: clip;
+   background: #919199;
+}
+
+/* SVG classes */
+
+.originalGroupCircle {
+   fill: #8BCE82;
+}
+
+.originalGroupText {
+   fill: rgba(255,255,255,0.9);
+   text-anchor: middle;
+}
+
+.standartGroupCircle {
+   fill: #B582E2;
+}
+
+.standartGroupText {
+   fill: rgba(255,255,255,0.9);
+   text-anchor: middle;
+}
+
+.activeGroupCircle {
+   fill: #9D5DD9;
+}
+.activeGroupText {
+   fill: rgba(255,255,255,0.9);
+   text-anchor: middle;
+}
+
+.swapGroupCircle {
+   fill: #615AD7;
+}
+.swapGroupText {
+   fill: rgba(255,255,255,0.9);
+   text-anchor: middle;
+}
